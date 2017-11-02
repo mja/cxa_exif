@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    multi_exiftool (0.7.0)
+    rake (12.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  multi_exiftool
+  rake
+
+BUNDLED WITH
+   1.15.4
