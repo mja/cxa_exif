@@ -1,0 +1,36 @@
+---
+:cameras:
+  M6:
+    :make: "Leica"
+    :model: "M6"
+  R3M:
+    :make: "Voigtländer"
+    :model: "Bessa R3M"
+  R2M:
+    :make: "Voigtländer"
+    :model: "Bessa R2M"
+:lenses:
+  Nokton35:
+    :focal_length: 35
+    :model: "Nokton"
+    :name: "Nokton 35mm f/1.2 II"
+    :aperture: 1.2
+  Nokton40:
+    :focal_length: 40
+    :model: "Nokton"
+    :name: "Nokton 40mm f/1.4"
+    :aperture: 1.4
+  Heliar75:
+    :focal_length: 75
+    :model: "Heliar"
+    :name: "75mm Heliar Classic f/1.8"
+    :aperture: 1.8
+:films:
+  HP5:
+    :name: "Ilford HP5 Plus"
+  Pan:
+    :name: "Ilford Pan"
+  Arista:
+    :name: "Arista Premium"
+  Ektar:
+    :name: "Kodak Ektar"
