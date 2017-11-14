@@ -3,7 +3,7 @@
 Directories of scans are in the form:
 
 ```
-YYYYMMDD-YYYYMMDD (Location A,Location B)
+YYYYMMDD-YYYYMMDD (Location A,Location B) RollNumber
 ```
 
 Scans files are in the form:
