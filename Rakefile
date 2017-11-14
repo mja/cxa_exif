@@ -57,6 +57,7 @@ task :exif, [:dir] do |t, args|
         make: camera[:make],
         model: camera[:model],
         iso: iso,
+        lensmodel: lens[:name],
         focallength: lens[:focal_length],
         datetimeoriginal: "#{dateoriginal} 12:00:00 +0000",
         creator: creator,
