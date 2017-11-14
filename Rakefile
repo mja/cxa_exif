@@ -1,54 +1,13 @@
 # coding: utf-8
 require 'rubygems'
+require 'yaml'
 require 'multi_exiftool'
 
-cameras = {
-  "M6" => {
-    make: "Leica",
-    model: "M6"
-  },
-  "R3M" => {
-    make: "Voigtländer",
-    model: "Bessa R3M"
-  },
-  "R2M" => {
-    make: "Voigtländer",
-    model: "Bessa R2M"
-  }
-}
+data = YAML.load_file("Data.yml")
 
-lenses = {
-  "Nokton35" => {
-    focal_length: 35,
-    model: "Nokton",
-    name: "Nokton 35mm f/1.2 II"
-  },
-  "Nokton40" => {
-    focal_length: 40,
-    model: "Nokton",
-    name: "Nokton 40mm f/1.4"
-  },
-  "Heliar75" => {
-    focal_length: 75,
-    model: "Heliar",
-    name: "75mm Heliar Classic f/1.8"
-  }
-}
-
-films = {
-  "HP5" => {
-    name: "Ilford HP5 Plus"
-  },
-  "Pan" => {
-    name: "Ilford Pan"
-  },
-  "Arista" => {
-    name: "Arista Premium"
-  },
-  "Ektar" => {
-    name: "Kodak Ektar"
-  }
-}
+cameras = data[:cameras]
+lenses = data[:lenses]
+films = data[:films]
 
 creator = "Christopher Adams"
 
