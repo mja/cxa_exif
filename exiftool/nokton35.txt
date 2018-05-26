@@ -1,0 +1,5 @@
+-n
+-XMP:MaxApertureValue=1.2
+-EXIF:MaxApertureValue=1.2
+-EXIF:FocalLength=35
+-EXIF:LensModel=Voigtlander Nokton 35mm f/1.2 II

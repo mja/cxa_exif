@@ -1,0 +1,5 @@
+-n
+-XMP:MaxApertureValue=1.8
+-EXIF:MaxApertureValue=1.8
+-EXIF:FocalLength=75
+-EXIF:LensModel=Voigtlander Heliar 75mm f/1.8
