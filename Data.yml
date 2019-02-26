@@ -68,3 +68,7 @@
     :name: "Arista Premium"
   Ektar:
     :name: "Kodak Ektar"
+  Presto:
+    :name: "Fujifilm Neopan Presto"
+  SuperPresto:
+    :name: "Fujifilm Neopan Super Presto"
