@@ -17,8 +17,8 @@ task :exif, [:dir] do |t, args|
   scan_dir = args[:dir]
 
   if File.directory?(scan_dir)
-    tiffs = Dir.glob("#{scan_dir}/**/*.tif")
-    exifs, errors = MultiExiftool.read(tiffs)
+    images = Dir.glob("#{scan_dir}/**/*.{tif,dng,jpg}")
+    exifs, errors = MultiExiftool.read(images)
 
     exifs.each do |exif|
       sourcefile = exif["sourcefile"]
