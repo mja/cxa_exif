@@ -39,6 +39,16 @@
     :model: "Zuiko"
     :name: "F. Zuiko 35mm f/2.8"
     :aperture: 2.8
+  E50:
+    :focal_length: 50
+    :model: "Series E"
+    :name: "Series E 50mm f/1.8"
+    :aperture: 1.8
+  NikkorH28:
+    :focal_length: 28
+    :model: "Nikkor-H"
+    :name: "Nikkor-H 28mm f/3.5"
+    :aperture: 3.5
 :films:
   HP5:
     :name: "Ilford HP5 Plus"
