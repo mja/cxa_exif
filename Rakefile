@@ -29,7 +29,7 @@ task :exif, [:dir] do |t, args|
 
       description = locations.join(", ")
 
-      settings = /(?<date>[0-9-]+)_(?<camera>[A-Za-z0-9]+)_(?<film>[A-Za-z0-9]+)-(?<speed>[0-9]+)(?<push_pull>[\+|-][0-9]+)?_(?<roll>[0-9]+)_(?<frame>[0-9]+)_(?<lens>[A-Za-z0-9]+)/.match(filename)
+      settings = /(?<date>[0-9-]+)_(?<camera>[A-Za-z0-9]+)_(?<film>[A-Za-z0-9]+)-(?<speed>[0-9]+)(?<push_pull>[\+|-][0-9]+)?_(?<roll>[0-9A-Za-z]+)_(?<frame>[0-9]+)_(?<lens>[A-Za-z0-9]+)/.match(filename)
 
       dateoriginal = settings[:date]
       camera = cameras[settings[:camera]]
