@@ -70,5 +70,9 @@
     :name: "Kodak Ektar"
   Presto:
     :name: "Fujifilm Neopan Presto"
+    :code: "400-PR"
+    :ISO: 400
   SuperPresto:
     :name: "Fujifilm Neopan Super Presto"
+    :code: "1600-PR"
+    :ISO: 1600
