@@ -9,6 +9,15 @@
   R2M:
     :make: "Voigtländer"
     :model: "Bessa R2M"
+  XA:
+    :make: "Olympus"
+    :model: "XA"
+  FG:
+    :make: "Nikon"
+    :model: "FG"
+  XG1:
+    :make: "Minolta"
+    :model: "XG1"
 :lenses:
   Nokton35:
     :focal_length: 35
@@ -25,6 +34,11 @@
     :model: "Heliar"
     :name: "75mm Heliar Classic f/1.8"
     :aperture: 1.8
+  Zuiko35:
+    :focal_length: 35
+    :model: "Zuiko"
+    :name: "F. Zuiko 35mm f/2.8"
+    :aperture: 2.8
 :films:
   HP5:
     :name: "Ilford HP5 Plus"
