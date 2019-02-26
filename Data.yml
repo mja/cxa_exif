@@ -49,6 +49,16 @@
     :model: "Nikkor-H"
     :name: "Nikkor-H 28mm f/3.5"
     :aperture: 3.5
+  MD50:
+    :focal_length: 50
+    :model: "MD"
+    :name: "MD 50mm f/2"
+    :aperture: 2.0
+  MC135:
+    :focal_length: 135
+    :model: "MC"
+    :name: "MC Tele Rokkor-QD 135mm f/3.5"
+    :aperture: 3.5
 :films:
   HP5:
     :name: "Ilford HP5 Plus"
