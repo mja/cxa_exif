@@ -86,5 +86,12 @@
     :ISO: 100
   Centuria800:
     :name: "Konica-Minolta Centuria 800"
-    :code: "Centura800-S"
+    :code: "Centuria800-S"
     :ISO: 800
+  800T:
+    :name: "CineStill 800T"
+    :ISO: 800
+  P3200:
+    :name: "Kodak T-MAX P3200"
+    :code: "P3200TMZ"
+    :ISO: 1000
