@@ -76,3 +76,11 @@
     :name: "Fujifilm Neopan Super Presto"
     :code: "1600-PR"
     :ISO: 1600
+  Superia400:
+    :name: "Fujifilm Superia X-tra 400"
+    :code: "CH"
+    :ISO: 400
+  Superia100:
+    :name: "Fujifilm Superia 100"
+    :code: "CN"
+    :ISO: 100
