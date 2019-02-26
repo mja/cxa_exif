@@ -9,7 +9,7 @@ cameras = data[:cameras]
 lenses = data[:lenses]
 films = data[:films]
 
-creator = "Christopher Adams"
+creator = YAML.load_file("Creator.yml")[:creator]
 
 desc "Add EXIF data"
 task :exif, [:dir] do |t, args|

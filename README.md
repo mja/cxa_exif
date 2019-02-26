@@ -21,6 +21,8 @@ For example:
 The `Data.yml` file must be up to date with the *Camera*, *Film*, and *Lens*
 used in the file names.
 
+Make a `Creator.yml` file containing a `creator` property with the name of the creator.
+
 Install the dependencies with:
 
 ```sh
