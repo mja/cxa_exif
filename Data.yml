@@ -84,3 +84,7 @@
     :name: "Fujifilm Superia 100"
     :code: "CN"
     :ISO: 100
+  Centuria800:
+    :name: "Konica-Minolta Centuria 800"
+    :code: "Centura800-S"
+    :ISO: 800
