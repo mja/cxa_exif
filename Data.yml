@@ -18,6 +18,9 @@
   XG1:
     :make: "Minolta"
     :model: "XG1"
+  Electro35GL:
+    :make: "Yashica"
+    :model: "Electro 35 GL"
 :lenses:
   Nokton35:
     :focal_length: 35
@@ -59,6 +62,11 @@
     :model: "MC"
     :name: "MC Tele Rokkor-QD 135mm f/3.5"
     :aperture: 3.5
+  Yashinon40:
+    :focal_length: 40
+    :model: "Color-Yashinon"
+    :name: "Color-Yashinon DX 40mm f/1.7"
+    aperture: 1.7
 :films:
   HP5:
     :name: "Ilford HP5 Plus"
