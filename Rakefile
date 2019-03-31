@@ -42,7 +42,7 @@ task :exif, [:dir] do |t, args|
       else
         dir = push_pull[:dir] === "+" ? 1 : -1
         stops = push_pull[:stops].to_i
-        iso = box_speed * 2 ** (dir * stops)
+        iso = (box_speed * 2 ** (dir * stops)).to_i
       end
 
       film = films[settings[:film]]
