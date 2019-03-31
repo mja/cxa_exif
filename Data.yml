@@ -85,13 +85,25 @@
     :code: "1600-PR"
     :ISO: 1600
   Superia400:
-    :name: "Fujifilm Superia X-tra 400"
+    :name: "FujiColor Superia X-tra 400"
     :code: "CH"
     :ISO: 400
   Superia100:
-    :name: "Fujifilm Superia 100"
+    :name: "FujiColor Superia 100"
     :code: "CN"
     :ISO: 100
+  Superia800:
+    :name: "FujiColor Superia X-tra 800"
+    :code: "CZ"
+    :ISO: 800
+  Sensia400:
+    :name: "FujiChrome Sensia 400"
+    :code: "RH"
+    :ISO: 400
+  Sensia200:
+    :name: "FujiChrome Sensia 200"
+    :code: "RM"
+    :ISO: 200
   Centuria800:
     :name: "Konica-Minolta Centuria 800"
     :code: "Centuria800-S"
