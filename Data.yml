@@ -104,6 +104,10 @@
     :name: "FujiChrome Sensia 200"
     :code: "RM"
     :ISO: 200
+  Trebi:
+    :name: "FujiChrome Trebi 100C"
+    :code: "TREBI 100C"
+    :ISO: 100
   Centuria800:
     :name: "Konica-Minolta Centuria 800"
     :code: "Centuria800-S"
